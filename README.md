@@ -3,11 +3,17 @@
 Este aplicativo foi construído durante a imersão Java realizada pela Alura entre os dias 27 e 31 de março. O aplicativo busca diversos dados de APIs e gera imagens stilo stickers que pode ser usado em redes sociais e aplicativos de comunicação instantânea. As imagens usadas nesse projeto são: posters de filmes do imdb, fotos dos bancos de dados da Nasa, e logos de linguagens de programção. Mas com alguns ajustes,
 outros tipos de imagens podem ser usadas.
 
-Acabei optando por escrever todas as classes dentro de uma pasta, não gerando nenhum projeto. É preciso o jdk instalado e colocar todos os arquivos em uma pasta e rodar javac StickerApp.java. Se tudo der certo a compilação deve occorrer sem problemas. E depois rodar o aplicativo com java StikerApp. É preciso escolher entre três tipos de stickers a serem gerados: Filmes, Imagens da Nasa ou Linguagens. Faça a escolha dentro da classe StickerApp (Tipo.IMBD, Tipo.NASA ou Tipo.LING) e realizar a compilação novamente. Na Classe Urls eu faço uso de uma variável de ambiente que consiste na chave da api para acessar as imagens da Nasa. Gere uma variável de ambiente com a sua chave ou apensa use a chave DEMO_KEY para testes.
+Acabei optando por escrever todas as classes dentro de uma pasta, não gerando nenhum projeto. É preciso o jdk instalado e colocar todos os arquivos em uma pasta e rodar
+```
+javac StickerApp.java
+```
+Se tudo der certo a compilação deve occorrer sem problemas. E depois rodar o aplicativo com 
+```
+java StikerApp
+```
+É preciso escolher entre três tipos de stickers a serem gerados: Filmes, Imagens da Nasa ou Linguagens. Faça a escolha dentro da classe StickerApp (Tipo.IMBD, Tipo.NASA ou Tipo.LING) e realizar a compilação novamente. Na Classe Urls eu faço uso de uma variável de ambiente que consiste na chave da api para acessar as imagens da Nasa. Gere uma variável de ambiente com a sua chave ou apensa use a chave DEMO_KEY para testes.
 
-
-
-<b>Filmes:</b>
+## Filmes:
 <table>
     <tr>
         <td align="center">
@@ -22,7 +28,7 @@ Acabei optando por escrever todas as classes dentro de uma pasta, não gerando n
     </tr>
 </table>
 
-<b>Nasa:</b>
+## Nasa:
 <table>
     <tr>
         <td align="center">
@@ -37,7 +43,7 @@ Acabei optando por escrever todas as classes dentro de uma pasta, não gerando n
     </tr>
 </table>
 
-<b>Linguagens:</b>
+## Linguagens:
 <table>
     <tr>
         <td align="center">
